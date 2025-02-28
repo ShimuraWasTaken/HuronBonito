@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanashi Mumei | Bitacora 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="start"></header>
+    <nav>
+        <a class="logo" href="#start"><img src="./img/hololive-logo.png" alt=""></a>
+        <div id="mySideNav" class="sideNav">
+            <a href="#news">News</a>
+            <a href="#events">Events</a>
+            <a href="#characterData">Data</a>
+            <a href="#music">Music</a>
+            <a href="#videos">Videos</a>
+        </div>
+    </nav>
+    <main>
+        <section id="mainView">
+            <div class="characterChange">
+                <img src="./img/mumei-pfp1.png" onclick="cambio1()" alt="">
+                <img src="./img/mumei-pfp2.png" onclick="cambio2()" alt="">
+                <img src="./img/mumei-pfp3.png" onclick="cambio3()" alt="">
+                <img src="./img/mumei-pfp4.png" onclick="cambio4()" alt="">
+                <img src="./img/mumei-pfp5.png" onclick="cambio5()" alt="">
+                <script src="./imgch.js"></script>
+            </div>
+            <div class="character">
+                <img id="imageChange" src="./img/nanashi-mumei1.png" alt="">
+            </div>
+            <div class="characterInfo">
+                <h2>Nanashi Mumei</h2>
+                <h3>“Oh hi! Hoo’s this? Nanashi Mumei!”</h3>
+                <p>The Guardian of Civilization, a traveling owl who has borne witness to numerous events.
+
+                    Even though glimpses of past memories—seen and forgotten throughout her endless journey—occasionally surface, she is now a lovely girl who relishes each and every day. When once she was just an observer, she now enjoys her everyday interactions with civilizations and its people.
+                    And soon the ordinary, ever-present daily life, shall also weave itself into the tapestry of civilization.</p>
+            </div>
+        </section>
+
+        <!--Cambio de pagina con los 4 cuadros de contenido, min 3 paginas-->
+        <section id="videos">
+            <div class="deco">
+                <h2>VIDEOS</h2>
+            </div>
+            <div id="page1V">
+                <div class="contentVPg1">
+                    <img src="./img/miniatura-video1.jpg" alt="">
+                    <h3>[MV] Mumei</h3>
+                    <p>Official Music Video</p>
+                </div>
+                <div class="contentVPg1">
+                    <img src="./img/miniatura-video2.jpg" alt="">
+                    <h3>Super Chat Stream</h3>
+                    <p>Reading super chats</p>
+                </div>
+                <div class="contentVPg1">
+                    <img src="./img/miniatura-video3.jpg" alt="">
+                    <h3>3D Showcase</h3>
+                    <p>#Moomin3D</p>
+                </div>
+                <div class="contentVPg1">
+                    <img src="./img/miniatura-video4.jpg" alt="">
+                    <h3>[MV] it's not a phase</h3>
+                    <p>Music video w/ Fauna</p>
+                </div>
+            </div>
+            <div id="page2V">
+                <div class="contentVPg2">
+                    <img src="./img/miniatura-video5.jpg_large" alt="">
+                    <h3>Oh Hi!</h3>
+                    <p>Just talking stream</p>
+                </div>
+                <div class="contentVPg2">
+                    <img src="./img/miniatura-video6.jpg" alt="">
+                    <h3>Mumei Draws you!</h3>
+                    <p>Drawing pfp from chat</p>
+                </div>
+                <div class="contentVPg2">
+                    <img src="./img/miniatura-video7.jpg_large" alt="">
+                    <h3>New Outfit</h3>
+                    <p>Emo Moom</p>
+                </div>
+                <div class="contentVPg2">
+                    <img src="./img/miniatura-video8.png" alt="">
+                    <h3>New Outfit</h3>
+                    <p>oh hi! hoo there?</p>
+                </div>
+            </div>
+            <div id="page3V">
+                <div class="contentVPg3">
+                    <img src="./img/miniatura-video9.jpg" alt="">
+                    <h3>1M Special! :D</h3>
+                    <p>Thank you everyone</p>
+                </div>
+                <div class="contentVPg3">
+                    <img src="./img/miniatura-video10.jpg_large" alt="">
+                    <h3>After Talk</h3>
+                    <p>Things about the event</p>
+                </div>
+                <div class="contentVPg3">
+                    <img src="./img/miniatura-video11.jpg_large" alt="">
+                    <h3>Drawing hololive members</h3>
+                    <p>Hi kronii :D</p>
+                </div>
+                <div class="contentVPg3">
+                    <img src="./img/miniatura-video12.jpg_large" alt="">
+                    <h3>Emo Karaoke</h3>
+                    <p>Sing some music</p>
+                </div>
+            </div>
+            <div class="pageNumV">
+                <button onclick="ShowPg1Video()">1</button>
+                <button onclick="ShowPg2Video()">2</button>
+                <button onclick="ShowPg3Video()">3</button>
+                <script src="./sectionCtrl.js"></script>
+            </div>
+        </section>
+        
+        <section id="music">
+            <div class="deco">
+                <h2>MUSIC</h2>
+            </div>
+            <div id="page1M">
+                <div class="contentMPg1">
+                    <img src="./img/miniatura-video1.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentMPg1">
+                    <img src="./img/miniatura-video2.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentMPg1">
+                    <img src="./img/miniatura-video3.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentMPg1">
+                    <img src="./img/miniatura-video4.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+            </div>
+            <div id="page2M">
+                <div class="contentMPg2">
+                    <img src="./img/miniatura-video5.jpg_large" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentMPg2">
+                    <img src="./img/miniatura-video6.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentMPg2">
+                    <img src="./img/miniatura-video7.jpg_large" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentMPg2">
+                    <img src="./img/miniatura-video8.png" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+            </div>
+            <div class="pageNumM">
+                <button onclick="ShowPg1Music()">1</button>
+                <button onclick="ShowPg2Music()">2</button>
+                <script src="./sectionCtrl.js"></script>
+            </div>
+        </section>
+
+        <section id="characterData">
+            <h2>DATA</h2>
+            <table class="tableLeft">
+                <tbody>
+                    <tr>
+                        <td>Birthday</td>
+                        <td>August 4</td>
+                    </tr>
+                    <tr>
+                        <td>Debut Stream</td>
+                        <td>August 23, 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Height</td>
+                        <td>156 cm</td>
+                    </tr>
+                    <tr>
+                        <td>Unit</td>
+                        <td>Hololive English -Promise-</td>
+                    </tr>
+                    <tr>
+                        <td>Illustrator</td>
+                        <td>Azure</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="tableRight">
+                <tbody>
+                    <tr>
+                        <td>Birthday</td>
+                        <td>August 4</td>
+                    </tr>
+                    <tr>
+                        <td>Debut Stream</td>
+                        <td>August 23, 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Height</td>
+                        <td>156 cm</td>
+                    </tr>
+                    <tr>
+                        <td>Unit</td>
+                        <td>Hololive English -Promise-</td>
+                    </tr>
+                    <tr>
+                        <td>Illustrator</td>
+                        <td>Azure</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="events">
+            <div class="deco">
+                <h2>EVENTS</h2>
+            </div>
+            <div id="page1E">
+                <div class="contentEPg1">
+                    <img src="./img/miniatura-video1.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentEPg1">
+                    <img src="./img/miniatura-video2.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="deco">
+                <h2>NEWS</h2>
+            </div>
+            <div id="page1N">
+                <div class="contentNPg1">
+                    <img src="./img/miniatura-video1.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentNPg1">
+                    <img src="./img/miniatura-video2.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentNPg1">
+                    <img src="./img/miniatura-video3.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentNPg1">
+                    <img src="./img/miniatura-video4.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+            </div>
+            <div id="page2N">
+                <div class="contentNPg2">
+                    <img src="./img/miniatura-video5.jpg_large" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentNPg2">
+                    <img src="./img/miniatura-video6.jpg" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentNPg2">
+                    <img src="./img/miniatura-video7.jpg_large" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+                <div class="contentNPg2">
+                    <img src="./img/miniatura-video8.png" alt="">
+                    <h3>Titulo</h3>
+                    <p>Texto</p>
+                </div>
+            </div>
+            <div class="pageNumN">
+                <button onclick="ShowPg1News()">1</button>
+                <button onclick="ShowPg2News()">2</button>
+                <script src="./sectionCtrl.js"></script>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <h2>Contactanos!</h2>
+        <img src="" alt="Github">
+        <img src="" alt="Facebook">
+        <img src="" alt="Twitter">
+        <img src="" alt="Youtube">
+        <p>Pagina creada por Angel Gael 240362</p>
+    </footer>
+</body>
+</html>
